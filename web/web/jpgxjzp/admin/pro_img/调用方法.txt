@@ -1,0 +1,71 @@
+如果是产品系统要用到多图上传，进行以下操作就可以了
+1.在产品的add.asp页面的159行加上以下代码         
+            <tr class="tdbg" >          
+                <td width="120" align="right"><strong>多图上传：</strong></td>          
+                <td ><IFRAME id="fra" name="fra"  height=240 src="../pro_img/img_add.asp" width="630" frameborder=0 scrolling="auto"></iframe></td>
+            </tr>
+
+2.在产品的addd.asp页面的49行加上以下代码
+if session("pro_id")<>"" and checknum(session("pro_id")) then
+	conn.execute"update pro_img set pro_id="&pro_id&" where pro_id="&session("pro_id")&""
+	session("pro_id")=""
+end if
+
+3.在产品的edit.asp页面的216行加上以下代码
+            <tr class="tdbg" >          
+                <td width="120" align="right"><strong>多图上传：</strong></td>          
+                <td ><IFRAME id="fra" name="fra"  height=240 src="../pro_img/img_add.asp?pro_id=<%=id%>" width="630" frameborder=0 scrolling="auto"></iframe></td>
+            </tr>
+
+
+如果信息系统要用到这个多图上传，对应地方加上上面的代码后，还要进行以下操作
+1.info_co/make.asp页面的60行加上代码
+				'删除多图
+				set rsa=server.CreateObject("adodb.recordset")
+				sql="select * from pro_img where pro_id="&rs("id")&""
+				rsa.open sql,conn,1,3
+				while not rsa.eof
+					if rsa("img_sl")<>"" then
+						call delfile("../../"&rsa("img_sl"))
+						call delfile("../../"&getbpic(rsa("img_sl"),"d"))
+					end if
+					rsa.delete
+					rsa.update
+				rsa.movenext
+				wend
+				rsa.close
+				set rsa=nothing
+
+2.info_lm/make.asp页面的
+44行加上以下代码
+				'删除多图
+				set rsa=server.CreateObject("adodb.recordset")
+				sql="select * from pro_img where pro_id="&rsb("id")&""
+				rsa.open sql,conn,1,3
+				while not rsa.eof
+					if rsa("img_sl")<>"" then
+						call delfile("../../"&rsa("img_sl"))
+						call delfile("../../"&getbpic(rsa("img_sl"),"d"))
+					end if
+					rsa.delete
+					rsa.update
+				rsa.movenext
+				wend
+				rsa.close
+				set rsa=nothing
+101行加上以下代码
+				'删除多图
+				set rsc=server.CreateObject("adodb.recordset")
+				sql="select * from pro_img where pro_id="&rsk("id")&""
+				rsc.open sql,conn,1,3
+				while not rsc.eof
+					if rsc("img_sl")<>"" then
+						call delfile("../../"&rsc("img_sl"))
+						call delfile("../../"&getbpic(rsc("img_sl"),"d"))
+					end if
+					rsc.delete
+					rsc.update
+				rsc.movenext
+				wend
+				rsc.close
+				set rsc=nothing

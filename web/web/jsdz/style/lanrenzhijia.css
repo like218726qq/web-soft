@@ -1,0 +1,19 @@
+
+/*Slide Start幻灯片位置开始*/
+#Slidebox{width:100%; height:400px;  padding:0px;  margin:0 auto;  /*position:relative;*/ background:#e0b98b; overflow:hidden;}
+#flashBg {height: 400px;overflow: hidden;width:100%;clear: both;margin: 0;padding: 0;}
+#flashLine {height: 400px;width: 100%;clear: both;}
+#flash{height: 400px;overflow: hidden;margin: 0 auto;clear: both;position: relative;padding: 0px 0px;}
+#flash a {height: 400px;display: none;}
+#flash img {height: 400px;}
+.flash_bar {bottom:0px;left:0px; text-align: center; padding-top:5px}
+.flash_bar .dq {
+display: block;float: left;cursor: pointer;overflow:hidden;_background: none; 
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="" ,sizingMethod="crop");
+}
+
+.flash_bar .no {display: block;float: left;width: 12px;cursor: pointer;overflow:hidden;_background: none;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="" ,sizingMethod="crop");
+}
+
+

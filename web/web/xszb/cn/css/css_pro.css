@@ -1,0 +1,19 @@
+@charset "utf-8";
+body{ font-size:12px;}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+.clear{ clear:both;}
+
+.cont{ width:790px;margin:0px auto;}
+.title01 {margin-left:12px;}
+.num {MARGIN: 5px 15px 0 0; HEIGHT: 30px; display:inline;}
+.num LI {display:inline;float:left;margin-left:3px;font-size:15px;font-weight:bold;font-family:tahoma; background:url(../images/biao1.jpg) no-repeat;cursor:pointer;height:10px; width:10px;}
+.num LI.on { background:url(../images/biao2.jpg) no-repeat;}
+
+.container1 {OVERFLOW: hidden; WIDTH: 790px; POSITION: relative; HEIGHT: 260px;}
+.slider {WIDTH: 10000px; POSITION: absolute}
+
+.right_cont {FLOAT: left; WIDTH: 790px; display:inline;}
+.right_cont .pic {MARGIN-TOP: 15px; FLOAT: left; MARGIN-LEFT: 12px; WIDTH: 790px; display:inline;}
+.right_cont .about {MARGIN-TOP: 15px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN-LEFT: 10px; WIDTH: 205px; LINE-HEIGHT: 20px; display:inline;}
+.right_cont .about H3 {WIDTH: 180px; font-size:12px; margin:0px; padding:0px;}
+.right_cont .about P {OVERFLOW: hidden; WIDTH: 205px; margin:0px; padding:0px;}

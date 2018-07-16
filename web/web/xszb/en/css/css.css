@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{ margin:0; padding:0; background:#000000; font-size:12px; color:#d1d1d1; font-family:"宋体,Arial";}
+
+ul,li,p,img{ list-style-type:none; margin:0; padding:0;}
+.fl{ float:left; display:inline;}
+
+a{ font-size:13px; text-decoration:none; color:#d1d1d1; outline:none;}
+a:hover{ font-size:13px; color:#fff;}
+
+.db a{ font-size:13px; text-decoration:none; color:#7f7f7f; outline:none;}
+.db a:hover{ font-size:13px; color:#fff;}
+
+clear{ clear:both;}
+img{ border:none;}
+.img1 {
+margin: 5px;
+float: left;
+}
+
+.menu{ width:555px; height:64px; margin:0 auto;}
+.menu li{ font-size:13px; display:block; float:left; display:block; background:url(../images/line_24.jpg) no-repeat right; margin-top:30px;               border-right:solid 1px #999999; color:#dddddd;}
+.menu li a{ font-size:13px; color:#dddddd; padding:0 21px; display:block;}
+.menu li a:hover{ font-size:13px; color:#fff; padding:0 21px; background:#eaa22a; display:block;}
+
+/*neiye*/
+
+.cpxl {font-size:14px; text-align:left; padding-left:5px; text-decoration:none; color:#eaa22b; font-weight:bold; outline:none;}
+
+.ny_nav { width:145px; text-align:left; font-size:12px;}
+.ny_nav li{ height:24px; padding:0px; margin:0px;}
+.ny_nav li a{ display:block; line-height:18px; height:24px;}
+.ny_nav li a:hover{ color:#FFF; background:url(../images/an1_13_2.jpg) no-repeat;}
+
+.ny_main_rt_f { width:800px;}
+.ny_main_rt_f li{ float:left; text-align:center; margin-left:24px; padding-left:24px; line-height:30px; margin:0 5px; 
+	  margin-bottom:20px; margin-top:20px; display:inline;}
+.ny_main_rt_f li img{ padding:5px;}
+.ny_main_rt_f li a{ color:#FFF; display:block;}
+.ny_main_rt_f li a:hover{ color:#eaa22b; background:url(../images/cp-bg_16.jpg) left top no-repeat;}
+
+.pro_box{ float:left;}
+.pro_box .pro_img{ width:160px; height:160px; text-align:center; }
+.pro_box .pro_img:hover{border:4px #c60 solid;}
+.about_zbody{ line-height:25px; padding:20px; min-height:300px;}
+
+.news_box{ border-bottom:1px #999 dashed; padding:10px 0px; margin:0px auto;}
+.news_title{color:#d1d1d1;}
+.news_title a{color:#C60;}
+
+.newshow_title{ line-height:35px; height:35px; text-align:center; font-weight:bold; font-size:16px;}
+.newshow_time{ text-align:center; height:35px; line-height:35px; text-align:right; font-size:12px; border-bottom:1px #999 dashed;}
+
+.min_height{ min-height:300px;}
+
+.job_tab{ height:35px; line-height:35px; border-bottom:1px #999 dashed;}
+.job_tab a{color:#d1d1d1;}
+.job_tab:hover{color:#C60;}
+
+.nei_bigclass{  height:25px; line-height:25px;}
+
+.down_tab{ float:left; margin-right:25px; margin-bottom:20px;}
+.down_title:hover{color:#C60; text-decoration:underline;}
+.down_img{ border:1px #666 solid; }
+.down_img:hover{ border:4px #c60 solid;}
+
+.map span{font-size:14px; font-weight:bold;}
+.map a{color:#d1d1d1;}
+
+.search_k1{ width:110px;  color:#7f7f7f; background:none; border:none; margin-left:10px; line-height:18px;}
+.search_k2{background:none; border:none;color:#c2c2c2; width:40px; padding-left:2px; margin:0px; font-size:12px;}
+
+.search_left1{width:100px;  color:#7f7f7f; background:none; border:none; margin-left:2px; line-height:18px;}
+.search_left2{ background:url(../images/ny_05.jpg) no-repeat; width:16px; height:13px; border:none;}
+
+.pages ul{  margin:0px auto; float:right;}
+.pages ul li{ margin:0px; padding:4px;}
+.pages ul li a{ margin:0px;}
+.pages ul li a:hover{ background:none;  }

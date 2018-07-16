@@ -1,0 +1,17 @@
+
+/* CSS Reset Start */
+html,body,div,span,a,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+html,body{font-family:Verdana, Simsun, Arial Unicode MS, Mingliu, Arial, Helvetica;}
+body{font-size:63%;color:#454545;margin-top:170px;background:url(../images/bg.jpg) left bottom #FFF repeat-x;}
+a{color:#000;text-decoration:none;}
+a:hover{color:red;text-decoration:underline;}
+#Header{width:100%;height:206px;position:absolute;left:0;top:0;background:url(../images/bg_img.png) left top #FFF repeat-x;z-index:1;}
+.logo-panel{width:983px;height:133px;overflow:hidden;position:relative;margin:0 auto;}
+.logo-panel h1 a,.logo-panel h2 a{ margin:18px auto 0;width:128px;height:90px;display:block;background:url(../images/bg_img.png) -230px -207px no-repeat;font-size:0;line-height:280px; overflow:hidden;}
+.menu-panel{width:983px;height:33px;overflow:hidden;clear:both;position:relative;text-align:center;background:url(../images/bg_img.png) left -420px no-repeat;margin:0 auto;}
+#Menu div{float:left;position:relative;left:50%;}
+#Menu div strong{color:#FFF;font-size:1.4em;position:relative;right:50%;float:left;}
+#Menu div strong a,#Menu div strong a.current{color:#FFF;text-decoration:none;height:33px;line-height:33px;display:block;float:left;margin:0 6px 0 8px;padding:0 10px; font-size:10pt;}
+#Menu div strong a:hover,#Menu div strong a.current{color:#FFDF00;background:url(../images/bg_img.png) center -263px no-repeat;}
+#Menu div strong span{display:block;height:24px;padding-top:6px;float:left;}
+.hide,.dp-highlighter.printing .tools{display:none!important;}

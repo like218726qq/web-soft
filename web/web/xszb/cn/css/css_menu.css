@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px; padding:0px; font-size:13px;}
+ol,ul,li,dl,dt,dd,form,p,h1,h2,h3,h4,h5{ margin:0px; padding:0px;}
+ol,ul,li{ list-style:none;}
+img{ border:none;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#e58e1f;}
+.clear{ clear:both;}
+
+/*导航*/
+#nav{ width:555px; height:64px; margin:0px auto;}
+#nav li{float:left; background:url(../images/line_24.jpg) no-repeat right; margin-top:30px;border-right:solid 1px #999999; color:#dddddd;font-size:13px; text-align:center; }/*这里是指所有的li,所以下面#nav li ul li针对这里的属性设定
+值*/
+
+#nav li a{ font-size:13px; color:#dddddd; width:95px; display:block;}
+#nav li a.cur{background:url(../images/nav_h.jpg) no-repeat left top;color:#fff;}
+
+/*下拉*/
+#nav li ul { display:none;position: absolute; background:#eaa22a; width:95px;}
+#nav li ul li{ float:none; margin:0px; border-right:none;}/*覆盖上面的#nav li*/
+#nav li ul li a{ font-size:13px; width:95px;height:25px;line-height:25px;display:block;text-align:center;color:#fff; text-decoration:none; }/*覆盖上面的#nav li a*/
+#nav li ul li a:hover {text-decoration:underline;font-weight:normal; }
+#nav li ul li:hover{ background:#f2b44c;}
+#nav li.sfhover ul {left:auto;}
+#nav li.sfhover a{ background:#eaa22a; color:#fff;}
+#nav li.sfhover ul li a{background:none;}

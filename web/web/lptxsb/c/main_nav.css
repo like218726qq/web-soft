@@ -1,0 +1,59 @@
+@charset "UTF-8"; 
+@import "quicknav.css";
+/*
+ * www 主导航 
+ * BY ASOFT - PLR 
+ * creat 12:13 2010-10-28
+ * modify 20:30 2011-12-28
+ */
+
+#main_nav{position:relative;margin:0 auto;height:70px;width:995px;}
+
+#header-link{height:30px;line-height:30px;text-align:right;}
+#header-link a{color:#576267; text-decoration:none;}
+#header-link a:hover{color:#000000; text-decoration:underline;}
+#header-nav{
+	width:995px;height:46px;z-index:9999;
+	background-image:url(../images/nav/after_ds_990.png);
+	_background:transparent;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/after_ds_990.png,sizingMethod='crop');
+ 					
+}
+#header-nav ul{list-style-type:none; float:left;}
+#header-nav ul li{float:left; position:relative; z-index: 1000}
+#header-nav ul li a{display:block;height:46px;_height:42px;margin-top:1px;_margin-top:2px;_height:41px;text-align:center; color:#576267; text-decoration: none ;text-indent:-9999px;overflow:hidden;font-size:0;
+	background-image:url(../images/nav/after_ds_990.png);
+	background-repeat:no-repeat; 
+	 
+	}
+#header-nav ul li a{}
+#header-nav ul li a:hover{filter:alpha(opacity=100);opacity:100;}
+
+.header-nav-0{width:1px;filter:alpha(opacity=0);opacity:0;background-position:-188px 0;}
+.header-nav-1{width:162px;filter:alpha(opacity=0);opacity:0;background-position:-10px 0;margin:1px 0 0 10px;_background-position:-10px -2px;_margin:2px 0 0 10px;}
+.header-nav-2{width:136px;filter:alpha(opacity=0);opacity:0;background-position:-173px 0;}
+.header-nav-3{width:135px;filter:alpha(opacity=0);opacity:0;background-position:-337px 0;}
+.header-nav-4{width:136px;filter:alpha(opacity=0);opacity:0;background-position:-501px 0;}
+.header-nav-5{width:135px;filter:alpha(opacity=0);opacity:0;background-position:-664px 0;}
+.header-nav-6{width:135px;filter:alpha(opacity=0);opacity:0;background-position:-827px 0;}
+.header-nav-7{width:136px;filter:alpha(opacity=0);opacity:0;background-position:-827px 0;}
+
+.header-nav-1:hover {background-position:-10px -101px;_background-position:-10px -102px;}
+.header-nav-2:hover {background-position:-173px -101px;_background-position:-173px -102px;}
+.header-nav-3:hover {background-position:-310px -101px;_background-position:-310px -102px;}
+.header-nav-4:hover {background-position:-446px -101px;_background-position:-446px -102px;}
+.header-nav-5:hover {background-position:-583px -101px;_background-position:-583px -102px;}
+.header-nav-6:hover {background-position:-719px -101px;_background-position:-719px -102px;}
+.header-nav-7:hover {background-position:-855px -101px;_background-position:-855px -102px;}
+
+
+.header-nav-1:active{background-position:-10px -51px;}
+.header-nav-2:active{background-position:-173px -51px;_background-position:-173px -52px;}
+.header-nav-3:active{background-position:-310px -51px;_background-position:-310px -52px;}
+.header-nav-4:active{background-position:-446px -51px;_background-position:-446px -52px;}
+.header-nav-5:active{background-position:-583px -51px;_background-position:-583px -52px;}
+.header-nav-6:active{background-position:-719px -51px;_background-position:-719px -52px;}
+.header-nav-7:active{background-position:-855px -51px;_background-position:-855px -52px;}
+
+.header-nav-2-on {width:136px;height:40px;margin-top:2px;filter:alpha(opacity=100);opacity:1;background-position:-173px -101px;_background-position:-173px -102px;}
+.header-nav-4-on {width:136px;height:40px;margin-top:2px;filter:alpha(opacity=100);opacity:1;background-position:-446px -101px;_background-position:-446px -102px;}

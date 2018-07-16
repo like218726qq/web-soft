@@ -1,0 +1,1 @@
+<div class="picshow"><img src="images/ny_12.jpg" /></div>

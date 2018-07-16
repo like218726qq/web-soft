@@ -1,0 +1,87 @@
+@charset "utf-8";
+body { margin:0; padding:0;font-size:12px; font-family:Arial; color:#000; background:#05b7c7 url(../images/ind.jpg) bottom no-repeat;}
+ul,li,p,img,div,dl,dt,dd,h1,h2,h3,h4{ list-style-type:none; margin:0; padding:0;}
+img{ border:none;}
+
+a{ font-size:12px; text-decoration:none; color:#000;}
+a:hover{ font-size:12px; color:#FF0000;}
+.clear{ clear:both;}
+
+#header{ width:1002px; height:auto; margin:0 auto;}
+#logo{ width:100%; height:81px; float:left; display:inline; overflow:hidden;background:url(../images/ind_02.jpg) center top no-repeat;}
+.lan{ float:right; margin-right:10px; line-height:30px;}
+#nav{ width:1002px; height:35px; float:left; display:inline; overflow:hidden; background:url(../images/index_01.jpg) center top no-repeat;}
+#nav #nav_ul{ width:1002px;height:35px; background:url(../images/index_01.jpg) center top  no-repeat;}
+#nav #nav_ul li {float: left; display:inline; _cursor:pointer; font-size:16px; font-weight:bold;}
+#nav #nav_ul li a{ width:100%; display:block; height:35px; _cursor:pointer; line-height:35px; text-align:center;}
+#nav #nav_ul li a.b1{width:120px;}
+#nav #nav_ul li a.c1{ background:url(../images/index_02.jpg) 0px 0px no-repeat;}
+#nav #nav_ul li a.b1:hover{ background:url(../images/index_02.jpg) 0px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b2{width:120px;}
+#nav #nav_ul li a.c2{ background:url(../images/index_02.jpg) -120px 0px no-repeat;}
+#nav #nav_ul li a.b2:hover{ background:url(../images/index_02.jpg) -120px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b3{width:120px;}
+#nav #nav_ul li a.c3{ background:url(../images/index_02.jpg) -240px 0px no-repeat;}
+#nav #nav_ul li a.b3:hover{ background:url(../images/index_02.jpg) -240px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b4{width:120px;}
+#nav #nav_ul li a.c4{ background:url(../images/index_02.jpg) -360px 0px no-repeat;}
+#nav #nav_ul li a.b4:hover{ background:url(../images/index_02.jpg) -360px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b5{width:120px;}
+#nav #nav_ul li a.c5{ background:url(../images/index_02.jpg) -480px 0px no-repeat;}
+#nav #nav_ul li a.b5:hover{ background:url(../images/index_02.jpg) -480px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b6{width:120px;}
+#nav #nav_ul li a.c6{ background:url(../images/index_02.jpg) -600px 0px no-repeat;}
+#nav #nav_ul li a.b6:hover{ background:url(../images/index_02.jpg) -600px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b7{width:120px;}
+#nav #nav_ul li a.c7{ background:url(../images/index_02.jpg) -720px 0px no-repeat;}
+#nav #nav_ul li a.b7:hover{ background:url(../images/index_02.jpg) -720px 0px no-repeat;color:#FFF;}
+#nav #nav_ul li a.b8{width:120px;}
+#nav #nav_ul li a.c8{ background:url(../images/index_02.jpg) -840px 0px no-repeat;}
+#nav #nav_ul li a.b8:hover{ background:url(../images/index_02.jpg) -840px 0px no-repeat;color:#FFF;}
+
+#main{ width:996px; height:auto; margin:0 auto; background:#fff;}
+.banner{ width:100%; height:282px; float:left; display:inline; overflow:hidden; border-bottom:#bfbfbf solid 4px; margin-bottom:22px;}
+#focus{width:996px;height:282px;margin:0 auto; }
+#focus div{position:absolute;width:996px;height:282px;overflow:hidden;}
+#focus img{width:996px;height:282px;}
+#focus #focus_img{display:none;}
+
+#indProList{ width:213px; height:auto; float:left; display:inline; overflow:hidden;}
+.indProTitle1,.indComT{ width:90%; height:26px; line-height:26px; float:left; display:inline; overflow:hidden; background:url(../images/ind_09.jpg) left no-repeat; font-size:14px; color:#fff; padding-left:18px; margin-bottom:19px;}
+.indPlist{ width:207px; height:auto; float:right; display:inline; overflow:hidden; background:#e0e0e0;}
+.indPimg{ width:187px; height:157px; float:left; display:inline; margin-left:10px; margin-top:5px;}
+.indPlist1{ width:100%; height:auto; float:left; display:inline; overflow:hidden;}
+.indPlist1 li{ width:170px; float:left; display:inline; overflow:hidden; margin-left:10px; padding-left:17px; line-height:22px; border-bottom:#fff solid 1px;}
+.indPlist1 li.indLast{ border-bottom:none; padding-bottom:5px;}
+#indRight{ width:745px; height:auto; float:right; display:inline; overflow:hidden;}
+#indCompany{ width:514px; height:auto; float:left; display:inline; overflow:hidden;}
+.indComM{ width:100%; height:auto; float:left; display:inline; overflow:hidden;}
+.indComM li{ float:left; display:inline; overflow:hidden;}
+.indComM li.indComImg{ width:179px; height:177px;}
+.indComM li.indComIntro{ width:304px; float:right; font-size:14px; line-height:18px;}
+.indComM li.indComIntro span{ width:109px; float:right; display:inline; padding-left:195px;}
+.indComM li.indComIntro span a{ color:#f00;}
+.indComM li.indComIntro span a:hover{ color:#f00; text-decoration:underline;}
+#indContact{ width:213px;  height:auto; float:right; display:inline; overflow:hidden; margin-right:14px;}
+.indContactT{ width:100%; height:20px; line-height:20px; background:url(../images/ind_12.jpg) 79px 4px no-repeat; font-size:14px;}
+.indContactM{ width:204px; padding:1px; border:#c9c6c6 solid 1px; line-height:22px; padding-left:6px;}
+.indContactM span{ width:100%; height:auto; float:left; display:inline; margin-left:-5px;}
+#indPro{ width:100%; height:auto; float:left; display:inline; overflow:hidden;}
+.indProTitle{ width:100%; float:left; display:inline; background:url(../images/ind_12.jpg) 100px 23px no-repeat; height:56px; line-height:56px; font-size:14px;}
+.indProMain{ width:727px; height:aoto; border:#6f6f6f solid 2px; background:#bfbfbf; float:left; display:inline; overflow:hidden;}
+.indProMain li{ float:left; display:inline; width:155px; text-align:center; overflow:hidden; margin-left:21px; margin-top:23px;}
+.indProMain li .indProImg{ width:100%; height:104px; float:left; display:inline; overflow:hidden;}
+.indProMain li .indPorName{ width:100%; height:24px; line-height:24px; float:left; display:inline;}
+#foot{ width:996px; margin:0 auto; background:#fff; padding-bottom:15px; padding-top:40px;}
+#foot ul li{ width:100%; float:left; display:inline; overflow:hidden; text-align:center;}
+#foot ul li.address{ height:24px; line-height:24px; background:url(../images/index_32.jpg) bottom no-repeat;}
+#foot ul li.bbh{ height:24px; line-height:24px;}
+
+/*****************ny********************/
+#indPro{ width:100%; height:auto; float:left; display:inline; overflow:hidden;}
+.nindProTitle{ width:100%; float:left; display:inline; background:url(../images/ind_12.jpg) 60px 7px no-repeat; height:26px; line-height:26px; font-size:14px;}
+.nindProMain{ width:727px; height:aoto; float:left; display:inline; overflow:hidden; margin-right:14px;}
+.nindProMain li{ float:left; display:inline; width:210px; text-align:center; overflow:hidden; margin:10px 15px;}
+.nindProMain li .nindProImg{float:left;width:210px; height:168px; background:url(../images/ind_18.jpg) top center no-repeat;}
+.nindProMain li .nindPorName{ width:100%; height:24px; line-height:24px; float:left; display:inline;}
+.page{ line-height:30px; text-align:center;}

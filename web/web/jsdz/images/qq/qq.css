@@ -1,0 +1,58 @@
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LIST-STYLE-TYPE: none; BORDER-BOTTOM-STYLE: none
+}
+
+
+
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LIST-STYLE-TYPE: none; BORDER-BOTTOM-STYLE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LIST-STYLE-TYPE: none; BORDER-BOTTOM-STYLE: none
+}
+
+A:hover {
+	COLOR: #000000
+}
+A {
+	FONT-SIZE: 12px; COLOR: #696969; TEXT-DECORATION: none
+}
+
+
+
+.QQbox {
+	Z-INDEX: 99; RIGHT: 0px; WIDTH: 132px; POSITION: absolute; TOP: 120px
+}
+.QQbox .press {
+	RIGHT: 0px; WIDTH: 33px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: absolute; HEIGHT: 138px; BORDER-BOTTOM-STYLE: none
+}
+.QQbox .Qlist {
+	BACKGROUND: url(../../images/qq/qq_listbg.gif) repeat-y -155px 0px; LEFT: 0px; WIDTH: 132px; POSITION: absolute
+}
+.QQbox .Qlist .t {
+	FONT-SIZE: 1px; FLOAT: right; HEIGHT: 6px
+}
+.QQbox .Qlist .b {
+	FONT-SIZE: 1px; FLOAT: right; HEIGHT: 6px
+}
+.QQbox .Qlist .t {
+	/*BACKGROUND: url(../../images/qq/t.jpg); height:29px; width:132px*/
+}
+.QQbox .Qlist .b {
+	BACKGROUND: url(../../images/qq/b.jpg); height:30px; width:132px
+}
+.QQbox .Qlist .con {
+	
+}
+.QQbox .Qlist .con H2 {
+	BACKGROUND: url(../../images/qq/t.jpg); FONT: bold 12px/22px "ËÎÌו"; color:#FFFFFF; line-height:27px; font-size:14px; height:27px; width:132px; TEXT-ALIGN: center
+}
+.QQbox .Qlist .con UL {
+	
+}
+.QQbox .Qlist .con UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 25px; background:url(../../images/qq/c.jpg);
+}
+.QQbox .Qlist .con UL LI.odd {
+
+}

@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-size:12px; color:#666666}
+*{ margin:0px; padding:0px; border:0px;}
+ul,li,p,img{ list-style-type:none; margin:0; padding:0;}
+a{ text-decoration:none; color:#333333; outline:none; blr:expression(this.onFocus=this.blur());}
+a:hover{color:#333333;}
+.clear{ clear:both;}
+.img1 {
+	margin: 5px;
+	float: left;
+}
+.STYLE6 {
+	color: #545454;
+	font-size: 13px;
+}
+.STYLE6 a{color: #545454;}
+.STYLE6 a:hover{color: #545454;}
+.STYLE7 {
+	font-size: 13px;
+	color: #959595;
+}
+.line{border-left: 1px dotted #D0D0D0;}
+.STYLE7 a{color: #959595;}
+.STYLE7 a:hover{color: #959595; }
+
+.item {
+height:auto;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+}
+.item h2 {
+    color: #000000;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.item ul li {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+}
+.item ul li a {
+    color: #7E7E7E;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 500px;
+}
+.item ul li a:hover {
+    color: #4BB447;
+}
+.item .extra-link {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: -12px;
+    color: #7E7E7E;
+    display: inline-block;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+.item .extra-link:hover {
+    color: #4BB447;
+    text-decoration: none;
+}
+.extra-link em {
+    background: url("../images/serivce_icon.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 20px;
+}
+ .extra-link em.download-x {
+    background-position: 0 0;
+}
+.extra-link em.info-x {
+    background-position: -21px 0;
+}
+
+.nav{ width:1005px; height:56px;background:url(../images/dh3_03.png) no-repeat top;}
+.nav ul{ width:737px; height:43px; background:url(../images/dh1_03.jpg) no-repeat top; float:left; margin-top:5px; margin-left:262px;}
+.nav ul li{float:left;height:43px;}
+.nav ul li a{ display:block; float:left; width:1005px; height:43px;}
+.nav ul li a.b1{ width:122px;}
+.nav ul li a.c1{ background:url(../images/dh2_03.jpg) no-repeat 0px 0px;}
+.nav ul li a.b1:hover{ background:url(../images/dh2_03.jpg) no-repeat 0px 0px;}
+.nav ul li a.b2{ width:121px;}
+.nav ul li a.c2{ background:url(../images/dh2_03.jpg) no-repeat -122px 0px;}
+.nav ul li a.b2:hover{ background:url(../images/dh2_03.jpg) no-repeat -122px 0px;}
+.nav ul li a.b3{ width:121px;}
+.nav ul li a.c3{ background:url(../images/dh2_03.jpg) no-repeat -243px 0px;}
+.nav ul li a.b3:hover{ background:url(../images/dh2_03.jpg) no-repeat -243px 0px;}
+.nav ul li a.b4{ width:121px;}
+.nav ul li a.c4{ background:url(../images/nav_over_03.png) no-repeat -364px 0px;}
+.nav ul li a.b4:hover{ background:url(../images/dh2_03.jpg) no-repeat -364px 0px;}
+.nav ul li a.b5{ width:121px;}
+.nav ul li a.c5{ background:url(../images/dh2_03.jpg) no-repeat -485px 0px;}
+.nav ul li a.b5:hover{ background:url(../images/dh2_03.jpg) no-repeat -485px 0px;}
+.nav ul li a.b6{ width:131px;}
+.nav ul li a.c6{background:url(../images/dh2_03.jpg) no-repeat -606px 0px;}
+.nav ul li a.b6:hover{background:url(../images/dh2_03.jpg) no-repeat -606px 0px;}
+
+#newsbar{width:1003px;position:relative;margin:0 auto;height:35px; color:#000000}
+#newsbar a{ color:#000000}
+#news_li{width:865px;height:20px;font-size:9px;display:block;position:absolute;left:87px;top:5px;overflow:hidden;}
+#roll_mask{width:3048px;height:20px;margin-top:-1px;_margin-top:0;overflow:hidden;padding:0}
+#roll_mask li{ height:20px; line-height:20px; font-size:12px;}
+#newsbarbg	{width:1003px;position:absolute;height:35px;
+		background:url(../images/news_bar.png) no-repeat;
+		_background:transparent;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://cx.heyou51.cn/26/lptx/images/news_bar.png,sizingMethod='');
+		z-index:-1;_left:-2px}
+	#newsbar a:focus{outline:none}
+	
+	a#news_link	{width:55px;height:15px;overflow:hidden;text-indent:-9999px;display:block;position:absolute;left:13px;top:6px;
+	 					background:url(../images/newsbar_title0.png);
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://cx.heyou51.cn/26/lptx/images/newsbar_title0.png,sizingMethod='');
+						cursor:pointer;
+				}
+    a#news_link:hover{	left:14px;background:url(../images/newsbar_title.png);
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://cx.heyou51.cn/26/lptx/images/newsbar_title.png,sizingMethod='');
+				}
+    
+    a#news_li_sleft	{width:6px;height:11px;display:block;position:absolute;left:960px;_left:956px;top:8px;}
+    a#news_li_sleft:hover{width:6px;height:11px;background:url(../images/newsbar_btn.png) no-repeat -100px -12px;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://cx.heyou51.cn/26/lptx/images/newsbar_larrow.png,sizingMethod='');
+						}
+    
+    a#news_li_sright	{width:6px;height:11px;display:block;position:absolute;left:975px;_left:972px;top:8px;}
+    a#news_li_sright:hover{width:6px;height:11px;background:url(../images/newsbar_btn.png) no-repeat  -150px -12px;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://cx.heyou51.cn/26/lptx/images/newsbar_rarrow.png,sizingMethod='');
+						}
+						
+						
+.pr_ti{ background-image:url(../images/neiye_17.jpg); margin:0 auto; width:60px; height:21px; display:block; line-height:21px;}
+.product{ margin:10px;}
+.product li{ margin:20px 52px; text-align:center; float:left}
+.page{ margin: 0 auto; line-height:30px; width:600px;}
+.page a{ color:#000000}
+.pro_class{ margin-right:100px; height:23px; float:right;}
+.pro_class a{  background: url("../images/catebtn.png") no-repeat scroll center center transparent;
+    display: inline-block; color:#666666;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    width: 78px;}
+.pro_class a:hover{text-decoration: none; color:#000;}
+.pro_class a.Findon{background: url(../images/prbtn.png) no-repeat 0 -300px ; _background: url(../images/prbtn.gif) no-repeat 0 -300px ;}
+
+/***/
+.sec,.sec1{ cursor:pointer; width:150px; height:36px; line-height:36px; z-index:99999; font-size:18px; color:#333333}
+.sec{text-align:center; background: url(../images/pro_on.jpg) left no-repeat; margin-right:2px;}
+.sec1{ text-align:center; background: url(../images/pro.jpg) left no-repeat; margin-right:2px; height:36px;}
+.ly-tb .news ul li { float:left;}
+.ly-tb .news { height: auto;}
+.ly-tb .news ul { height: auto;}
+.ly-tb .news .zjly {color:#333333; _height:700px;min-height:700px; margin-top:-1px; border:1px solid #e9e9e9; width:940px;  overflow:hidden; padding:5px; z-index:1}
+.none {display:none;}
+#tt1 li { width:90%;}
+#tt2 li { width:90%;}
+#tt3 li { width:90%;}
+#tt4 li { width:90%; line-height:12px;}
+#down01 {
+width:600px; margin:0 auto;
+    background: url("../images/download_min.gif") repeat-y scroll left top transparent;
+    min-height: 500px;
+}
+#down01a {
+    background: url("../images/download_top.gif") no-repeat scroll 0 0 transparent;
+    height: 34px;
+}
+#down01a li {
+    float: left;
+    width: 85px;
+}
+#down01a li a {
+    color: #088A82;
+    display: block;
+    height: 21px;
+    padding: 12px 0 0;
+    text-align: center;
+}
+#down01a li a:hover {
+    background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+#down01a li a.curr {
+    background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+.down9li a{background: url("../images/down_liahover.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;}
+.down9li a:hover {
+    background: url("../images/down_liahover.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+
+
+.down10li a{background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;}
+.down10li a:hover {
+    background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;color: #FFFFFF;
+}
+
+.down11li a{background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;color: #FFFFFF;}
+.down11li a:hover {
+    background: url("../images/down_libhover.gif") no-repeat scroll 0 0 transparent;color: #FFFFFF;
+}
+
+
+#down01b li {
+    background: url("../images/download_li.gif") no-repeat scroll 0 0 transparent;
+    color: #3A3C3C;
+    height: 22px;
+    padding: 14px 21px 0 34px;
+}
+#down01b li .shijian {
+    background: url("../images/download_liicob.gif") no-repeat scroll right center transparent;
+    float: right;
+    width: 35px;
+}
+#down01b li .shijian a {
+    color: #00A399;
+}
+#down01b li .shijian a:hover {
+    color: #FF9900;
+}
+
+.show{ margin:20px;}
+.pro_left{ background-image:url(../images/ny-zuo_15.jpg);}
+.pro_left li{ width:192px; height:30px; line-height:30px;color: #576267;font-size: 14px; border-bottom:1px dashed #CCCCCC}
+.pro_left li a{color: #576267;}
+.pro_left li a.bgdw{ color:#27B5A6}
+.news{ margin:5px;}
+.news li{ line-height:30px; height:30px; padding:5px; font-size:14px; padding-left:20px;}
+.news li a{color: #576267;}
+.news li span{ float:right;}
+.news li.cl{ background-color:#EBEBEB}
+
+.ddsubmenustyle {
+    background: none repeat scroll 0 0 white;
+    border-bottom-width: 0;
+    float: left;
+    font: 14px Verdana;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+	_top: 10px;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 140px;
+    z-index: 999900;
+}
+.ddsubmenustyle UL {
+    background: none repeat scroll 0 0 white;
+    border-bottom-width: 0;
+    float: left;
+    font: 14px Verdana;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+	_top: 10px;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 140px;
+    z-index: 100;
+}
+.ddsubmenustyle LI A {
+    background: none repeat scroll 0 0 #27B5A6;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    display: block;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 140px;
+}
+.ddsubmenustyle LI:hover{}
+.ddsubmenustyle LI A:hover{color: #FFFFFF;background: none repeat scroll 0 0 #1E8C82;}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+body {
+	font-family:"宋体";
+	color: #000000;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	font-size: 12px;
+}
+a {text-decoration:none;}
+img { padding:0px; border:0px; margin:0px;}
+.top_you{ color:#FFFFFF;} .top_you a{ color:#FFFFFF;}
+.about_tu {float: left;margin-right: 5px;}
+.about_font { color:#7c7c7c; line-height:23px;}
+.about_font a { color:#303030;}
+.about_font a:hover { color:#ff8300;}
+.about_gengd { color:#fe0000;}
+.about_gengd a { color:#fe0000;}
+.contact_tu {float: left; margin-right: 18px;}
+.contact_font { color:#303030; line-height:25px;}
+.di_font { color:#222222; line-height:25px;}
+.biaot {color:#005d96; font-size:14px; font-weight: bold;}
+.news_font { color:#5b5b5b;} .news_font a { color:#5b5b5b;}
+.fenl_font { color:#FFFFFF; font-weight:bold;}
+.fenl_beij {background-image:url(../images/products_erj_fenl.jpg);background-repeat: no-repeat;color:#747474;padding-left:40px;}
+.fenl_beij a{color:#747474;}
+.weiz { color:#0182c8;}.weiz a { color:#0182c8;}
+.bk {border: 1px solid #a7a7a7; color:#474747;}
+.feny { color:#626262;} .feny a { color:#626262;}
+
+.nei_body{ line-height:28px; width:707px; overflow:hidden;}
+.nei_title{ height:38px; line-height:38px; font-size:14px; font-weight:bold; text-align:center;}
+.nei_time{ color:#999; height:20px; line-height:20px;  text-align:right; margin-bottom:20px;}
+.new_tab tr td{ height:28px; line-height:28px; border-bottom:1px #CCC dashed;}
+.page{ margin:15px auto; width:707px; text-align:right; border-top:1px #a7a7a7 solid; height:35px; line-height:35px;}
+.nei_img{ margin-bottom:10px; text-align:center; width:707px; overflow:hidden;}
+
+
+
+

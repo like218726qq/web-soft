@@ -1,0 +1,44 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="slide_03/css/MagicZoom.css" type="text/css"/>
+<script type="text/javascript" src="slide_03/scripts/mz-packed.js"></script>
+<style>
+ul,li{ margin:0px; padding:0px; list-style:none;}
+.pic_list{width:350px; margin:5px auto 0;}
+.pic_list li{ float:left; margin-right:6px;}
+.pic_list li img{ background-color:#ccc; display:block; padding:2px;}
+.pic_list li.cur img{ background-color:#FF6600;padding:2px;}
+</style>
+<div style="width:350px; overflow:hidden; border:1px solid red;">
+<table border="0" cellpadding="0" cellspacing="0" style="border:1px solid red !important; width:350px !important;" >
+    <tr>
+    <td width="350" height="220" id="zoom" align="center" ></td>
+    </tr>
+</table>
+
+<ul id="pic_img" class="pic_list" style="border:1px solid red;">
+    <li><img src="slide_03/images/s1.jpg" width="79" style="cursor:pointer;" onClick="get_zoom(0,'slide_03/images/z1.jpg','slide_03/images/1.jpg')" ></li>
+    <li><img src="slide_03/images/s2.jpg" width="79" style="cursor:pointer;" onClick="get_zoom(1,'slide_03/images/z2.jpg','slide_03/images/2.jpg')" ></li>
+    <li><img src="slide_03/images/s3.jpg" width="79" style="cursor:pointer;" onClick="get_zoom(2,'slide_03/images/z3.jpg','slide_03/images/3.jpg')" ></li>
+    <li style="margin-right:0px;"><img src="slide_03/images/s4.jpg" width="79" style="cursor:pointer;" onClick="get_zoom(3,'slide_03/images/z4.jpg','slide_03/images/4.jpg')" ></li>
+</ul>
+</div>
+<script>
+	function get_zoom(n,zimg,dimg,title){
+		
+		tli=document.getElementById("pic_img").getElementsByTagName("li");
+		for(i=0;i<tli.length;i++){
+			if (i==n){
+				tli[i].className="cur";	
+			}else{
+				tli[i].className="";
+			}
+		}
+		
+		MagicZoom_stopZooms();
+		_el('zoom').innerHTML = '<a href="'+dimg+'" id="zoom1" rel="zoom-position: right; zoom-width:300px; zoom-height:300px;" class="MagicZoom"><img id="image_m" src="'+zimg+'"/></a><img class="MagicZoomLoading" src="images/ajax-loader.gif" alt="Loading Zoom, please wait"/>';
+		setTimeout('MagicZoom_findZooms()', 100);
+		
+	}
+	get_zoom(0,'slide_03/images/z1.jpg','slide_03/images/1.jpg');
+</script>

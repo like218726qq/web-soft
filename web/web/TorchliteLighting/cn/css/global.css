@@ -1,0 +1,30 @@
+@charset "utf-8";
+body { font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+
+/*总容器*/
+#slides {width:1002px; height:274px;position:relative; margin:0px auto;}
+
+/*内容*/
+.slides_container {width:1002px;height:274px;overflow:hidden;display:none; position:absolute;}
+.slides_container .slide {width:1002px;height:274px;display:block;}
+
+/*左右文字按钮*/
+#slides .next,#slides .prev {width:24px;height:43px;position:absolute;display:block;z-index:101;line-height:43px; text-align:center;text-decoration:none;font:700 53px/58px arial;color:#e4e4e4;outline:none; blr:expression(this.onFocus=this.blur());}
+#slides .prev{top:107px;left:0;}
+#slides .next {top:107px;right:0;}
+
+/*左右图片按钮--要去掉slides.min.jquery.js 227行的 &#8249; &#8250;
+#slides .next,#slides .prev {width:24px;height:43px;position:absolute;display:block;z-index:101; line-height:43px; text-align:center;}
+#slides .prev{top:107px;left:-24px; cursor:pointer;background: url(../images/arrow-prev.png) 0 0 no-repeat;_background: none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src = "images/arrow-prev.png", sizingMethod ="crop");outline:none; blr:expression(this.onFocus=this.blur());}
+#slides .next {top:107px;right:-24px;cursor:pointer;background: url(../images/arrow-next.png) 0 0 no-repeat;_background: none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src = "images/arrow-next.png", sizingMethod ="crop");outline:none; blr:expression(this.onFocus=this.blur());}
+*/
+
+/*圆点*/
+.pagination {position:absolute;z-index:1000; bottom:0;right:47%;}
+.pagination li {float:left;margin:0 1px;list-style:none;}
+.pagination li a {display:block;width:20px;float:left;font-size:32px;font-weight:bold;font-family:tahoma;color:#FFD705;cursor:pointer;text-decoration:none;outline:none; blr:expression(this.onFocus=this.blur());}
+.pagination li.current a {color:#fff;}
+
+/*标题层*/
+.caption {width:540px;height:30px;position:absolute;bottom:-35px;left:0;padding:5px 20px 0 20px;background:#000;background:rgba(0,0,0,.5);font-size:1.3em;line-height:1.33;color:#fff;z-index:500;}

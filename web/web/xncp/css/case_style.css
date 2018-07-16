@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{ margin:0px; padding:0px;}
+
+.bannerBox {position: relative; height:291px; width:971px;}
+#slideBoxLeft {Z-INDEX: 1022; height:291px; position: absolute; margin-top: -24px; width: 49px; background: url(../images/goleft.png) no-repeat left top; height: 49px; top: 50%; left: 0px}
+#slideBoxRight {Z-INDEX: 1022; position: absolute; margin-top: -24px; width: 49px; background: url(../images/goRight.png) no-repeat right top; height: 49px; top: 50%; right: 0px}
+ul,li{ margin:0px; padding:0px; list-style:none;}
+.slideBox {position: relative; height: 291px; overflow: hidden;}
+.slideBox ul {position: relative; height: 291px; overflow: hidden;}
+.slideBox li {height: 291px}
+.slideBox li p {text-align: center;margin:0px; padding: 346px 0 0 0;}
+.slideBox li p a {COLOR: #a2a2a2}
+.slideBoxNav {padding: 0 0 0 10px; position:absolute; z-index:100000; right:0px; bottom:5px;}
+.slideBoxNav a {margin: 0px 10px 0 0;font-size:20px;font-weight:bold; float:left;font-family:tahoma;color:#cfcfd3;height:22px; text-decoration:none; overflow:hidden;}
+.slideBoxNav a.selected {color:#ffbe00;}

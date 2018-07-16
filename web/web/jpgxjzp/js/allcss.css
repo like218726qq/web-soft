@@ -1,0 +1,20 @@
+body {font-size:12px;line-height:25px;}
+img{ border:none;}
+a {
+text-decoration:none;
+color:#000000;
+}
+a:link {
+text-decoration:none;
+color:#000000;
+}
+a:visited {
+text-decoration:none;
+color:#000000;
+}
+a:hover {
+text-decoration:none;
+color:#ff6600;
+}
+#pagelist a{ padding:0px 5px;}
+.nonewline{display:block;word-break:keep-all;white-space:nowrap;11overflow:hidden;text-overflow:ellipsis; width:auto;}

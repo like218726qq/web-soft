@@ -1,0 +1,1 @@
+<% response.write("get_id=" & request.querystring("id")) %>

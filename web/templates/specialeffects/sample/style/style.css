@@ -1,0 +1,94 @@
+﻿body{margin:0px; padding:0px; font-family:"微软雅黑";font-size:15px;color:#333; min-width:980px;}
+ul,li,img,p,span,a,h2,h3,h4,h5,h6,dl,dd,dt{ padding:0px; margin:0px;}
+a{ text-decoration:none;color:#333;}
+a:hover{color:#333;}
+ul,li{margin:0px;padding:0px; list-style:none;}
+h1,h2,h3,h4{ font-size:14px;}
+.content{margin:0 auto;}
+.left_f{ float:left;}
+.right_f{float:right;}
+.clear{clear:both;}
+img{border:0px;}
+i,em{ font-style:normal;}
+/**/
+.mian_con{width:988px; }
+.logo_nav{height:80px; padding:10px 0px;}
+.nav{width:620px; padding-top:37px;}
+.nav ul li{ float:left;width:102px;height:25px; line-height:25px; text-align:center;border-right:1px solid #808a93;}
+.nav ul li a{ display:block;height:30px; font-size:16px;}
+.nav .wu_bei{ border:none;}
+
+.foot_con{  font-size:16px; text-align:right; padding:15px 0px;border-top:2px solid #a1a09f; margin-top:10px;}
+
+.i_zhu_ti{ padding:20px 0px 0px 0px;}
+.i_list{width:326px; float:left;}
+.i_list .list_a{font-size:14px;height:310px; display:block; background:url(../images/index_16.jpg) no-repeat 50% 15px;}
+.i_list .list_a:hover{ background:#f5f4f4 url(../images/index_14.jpg) no-repeat 50% 16px;}
+.i_list a:hover b{ color:#008be1;}
+.i_list .list_a_2{font-size:14px;height:310px; display:block; background:url(../images/index_18.jpg) no-repeat 50% 15px;}
+.i_list .list_a_2:hover{ background:#f5f4f4 url(../images/index_20.jpg) no-repeat 50% 14px;}
+.i_list .list_a_3{font-size:14px;height:310px; display:block; background:url(../images/index_22.jpg) no-repeat 50% 15px;}
+.i_list .list_a_3:hover{ background:#f5f4f4 url(../images/index_11.jpg) no-repeat 50% 15px;}
+.i_list  b{padding-top:15px; display:block;}
+.liao_jie_p{ padding:130px 10px 0px 10px; font-weight:bold;}
+.i_list_margin{ margin:0px 4px;}
+/*about*/
+.ny_mian{}
+.ny_left{ background:#f5f4f4;width:215px; min-height:627px;_height:627px;}
+.ny_left ul{ padding-top:55px;}
+.ny_left ul li{ font-size:16px; text-align:center;height:35px; line-height:35px;}
+.ny_left ul li a{ display:block;}
+.ny_left ul li .bai_bei{ font-weight:bold; background:#FFF;}
+.ny_rig{ float:right;width:760px;}
+.wei_zhi{ font-weight:bold; text-align:right; line-height:35px;}
+.about_zi{min-height:550px;_height:550px; background:url(../images/about_07.jpg) no-repeat right bottom; font-weight:bold; line-height:30px; padding:40px 0px 0px 50px;}
+.tu_con{
+/*非IE的主流浏览器识别的垂直居中的方法*/ 
+display: table-cell; 
+vertical-align:middle; 
+/*设置水平居中*/ 
+text-align:center; 
+/* 针对IE的Hack */ 
+*display: block; 
+*font-size: 175px;/*约为高度的0.873，200*0.873 约为175*/ 
+*font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/ 
+width:310px; 
+height:195px; 
+
+} 
+.tu_con img{
+	/*设置图片垂直居中*/ 
+vertical-align:middle; }
+.tu_con a{ display:block;border: 1px solid #eee; }
+.tu_con a:hover{ border:1px solid #f7906c;}
+.pro_list ul li{ padding-bottom:10px; float:left; display:inline; line-height:30px; margin:0px 0px 0px 68px;width:310px; text-align:center;}
+.pro_list{min-height:595px;_height:595px; background:url(../images/pro_zi.jpg) no-repeat right bottom;}
+
+.jie_jue{min-height:595px;_height:595px; padding-left:30px; background:url(../images/serv.jpg) no-repeat right bottom;}
+.jie_jue div{ padding-top:20px;}
+.jie_jue div p{}
+
+.huo_ban{min-height:595px;_height:595px; padding-left:10px; background:url(../images/h_17.jpg) no-repeat right bottom;}
+.huo_ban ul li{ float:left; margin-left:30px;width:178px;border:1px solid #f1f0f0;}
+.huo_ban ul{ padding-top:25px;}
+.Contact{ background:url(../images/Contact.jpg) no-repeat right bottom;}
+.jia_ru .biao{ background:#f5f4f4; margin-bottom:14px;height:35px; line-height:35px;}
+.jia_ru .biao h3{ padding-left:40px; float:left;}
+.jia_ru .biao a{color:#FFF; display:block; margin-right:10px; float:right; padding:0px 20px; background:#605d5c;}
+.wen_ben{padding-left:35px; padding-bottom:20px;}
+.pro_con{width:309px; float:left; margin:0px 30px;}
+.pro_con .zi_qu{ padding-top:15px;}
+.pro_con h4{ padding-top:10px; font-size:18px;}
+.pro_con .zi_qu h5{ font-weight:900; font-size:16px;}
+
+
+
+
+
+
+
+
+
+
+
+

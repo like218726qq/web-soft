@@ -1,0 +1,6 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.73
+
+RewriteEngine on
+RewriteBase /heyou/0404hbk/
+RewriteRule ^get-(.*).html /get.asp?id=$1

@@ -1,0 +1,4 @@
+﻿
+<%
+call listpage(pra)
+%>

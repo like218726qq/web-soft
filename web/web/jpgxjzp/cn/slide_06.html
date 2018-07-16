@@ -1,0 +1,33 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../js/jquery-1.6.min.js"></script>
+<script>
+$(document).ready(function(){index_new_hot();});
+function index_new_hot(){
+	function upanimate(){
+	$(".index_news_hot").animate({"margin-top":-33},2000,function(){
+		$(".index_news_hot").css("margin-top","0px");
+		$(".index_news_hot").find("div:first").appendTo($(".index_news_hot"));
+		});
+	}
+	var timeid=window.setInterval(upanimate,3000);	
+   $(".index_news_hot dl dd div").hover(
+	   function(){
+		   window.clearInterval(timeid);
+		   },
+	   function(){
+		   timeid=window.setInterval(upanimate,3000);	
+		   }
+	   );
+}	
+</script>
+<div style="height:25px; line-height:25px; overflow:hidden;">
+	<div class="index_news_hot">
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展0</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展1</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展2</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展3</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展4</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展5</a></div>
+    <div><a href="#">2013第五届北京国际LED显示屏技术及LED城市景观照明展6</a></div>
+    </div>
+</div>

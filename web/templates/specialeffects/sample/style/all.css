@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+/* css reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:2px; border:0; }
+caption { text-align:left; font-weight:bold; font-size:12px; }
+img { border:0; }
+li { list-style:none; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+input, button, textarea, select, optgroup, option { font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; }
+input, button, textarea, select { *font-size:100%;
+}
+strong { font-weight:bold; }
+/* end reset */
+/* start base */
+/* =body= */
+body { color:#333333;}
+body , html{ height:100%;}
+/* =link= */
+a { text-decoration:none; color:#666666;}
+a:hover { text-decoration:none; }
+.show { display:block; }
+.hide { display:none; }
+.mt10{ margin-top:10px;}
+/* ==float clear== */
+.fix { clear:both; *zoom:1;}
+.fix:after{ display:block; clear:both; visibility:hidden; height:0; content:""; overflow:hidden; }
+/* ==margin,padding== */
+/* end base */
+
+.wrapper{ width:960px; margin:0 auto; background:#fff;}
+#container{ width:100%; background:url(../images/shadow.png) repeat-x; padding-top:11px;}
+#left{ float:left; width:215px; padding-top:5px;}
+#right{ float:right; width:730px; margin-right:8px; display:inline;}
+.wrapper_bg{ width:100%; background:url(../images/banner_bg.png) repeat-x center top #f2f2f2;}
+.shadow{ background:url(../images/shadow.png) repeat-x #fff;}
+
+
+
+.scrollField .scrollDetail dl {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.scrollField .scrollDetail dl dd {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 1;
+}
+.scrollField .control {
+    bottom: 6px;
+    height: 0;
+    left: 240px;
+    position: absolute;
+    width: 487px;
+    z-index: 3;
+}
+.scrollField .control span {
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 27px;
+    position: absolute;
+    width: 16px;
+}
+.control .leftArrow {
+    background-image: url("../images/icon_btn_left.png");
+    bottom: 30px;
+    left: 0;
+}
+.control .rightArrow {
+    background-image: url("../images/icon_btn_right.png");
+    bottom: 30px;
+    right: 0;
+}
+
+/*start product*/
+.crumb_bg{ height:37px; line-height:37px; background:url(../images/crumb_bg.png) repeat-x; position:relative;}
+.crumb{ padding-left:14px;}
+.crumb a, .crumb span{ padding:0 7px;}
+.crumb a:hover, .crumb span{ color:#0b75bf}
+.share{ position:absolute; right:8px; top:9px;  height:20px;}
+
+.share .rr{ background-position:0 0;}
+.share .txwb{ background-position:-25px 0;}
+.share .xlwb{ background-position:-50px 0;}
+.share .add{ background-position:-78px 0;}
+
+/*product_view*/
+.crumb_02{position:relative; width:960px; height:37px; margin:0 auto;}
+.crumb_02 .crumb{ width:815px; padding-left:0px;}
+.pro_view { margin-top:20px; height:440px;}
+.pro_view .flt{ float:left; width:320px; padding-left:30px;}
+.pro_view .flt .name{ font-weight:bold; color:#0b75bf; line-height:20px; display:block;}
+.pro_view .flt .model{ font-family:Arial; color:#000; font-size:20px; line-height:20px; display:block;}
+.pro_view .flt .feature{ font-family:"΢ź"; color:#000; font-size:30px; padding:34px 0 18px; display:block;}
+.pro_view .flt .desc{ font-size:14px; color:#000; line-height:22px;}
+.pro_view .flt .function{ padding-top:10px;}
+.btn_oprat{ width:222px; height:65px; background:url(../images/btn_lianxi.gif) no-repeat 0px 0px; margin-top:55px;}
+.btn_oprat a{ float:left; width:73px; height:20px; line-height:20px; text-align:center; color:#333333; padding-top:37px;}
+.btn_oprat a:hover{ color:#0b75bf;}
+.pro_view .frt{ float:left; width:610px; height:422px; position:relative;}
+.pr_view_pic{ width:494px; height:422px; padding-left:10px; overflow:hidden;}
+.pr_view_pic img{ width:494px; height:422px;}
+.pr_view_btn{ position:absolute; width:156px; height:48px; right:20px; top:367px;}
+.pr_view_btn li{ float:left; width:48px; margin:0 2px; cursor:pointer; display:inline;}
+.pr_view_btn img{ width:42px; height:42px; border:solid 3px #fff;}
+.pr_view_btn .on img{ border:solid 3px #00aeef;}
+.pr_view_bag{ width:960px; margin:0 auto;background:url(../images/pr_view_bg.gif) repeat-x #fff; padding-bottom:45px; overflow:hidden;}
+.pr_view_tit{ height:37px; position:relative; padding-left:29px;}
+.pr_view_tit li{ float:left; padding-right:15px;  height:29px; line-height:29px; background:url(../images/tab_bg.png) no-repeat right -33px;   margin-top:9px; margin-left:3px; display:inline; color:#333; cursor:pointer;} 
+.pr_view_tit li span{ background:url(../images/tab_bg.png) no-repeat left top; height:29px; display:inline-block; padding-left:15px;}
+.pr_view_tit .on{ background:url(../images/tab_bg.png) no-repeat right -99px; font-weight:bold; color:#fff;}
+.pr_view_tit .on span{ background:url(../images/tab_bg.png) no-repeat left -65px;}
+.shop_cart{ width:121px; height:38px; background:url(../images/shop_cart.gif) no-repeat; position:absolute; right:0px; top:0px;}
+.pro_price{ position:absolute; right:162px; line-height:38px;top:0px;}
+.pro_price b{ font-size:13px;}
+.pr_tabcon{ padding:25px 30px 0 30px; border-bottom:1px solid #ccc;}
+.pr_tabcon h2{ font-weight:bold; font-size:14px; color:#0b75bf; line-height:23px; padding-left:10px;}
+.tabcon_01 .pic{ float:left; width:218px; height:180px; padding:10px 38px 0 0;}
+.tabcon_01 .news_list{ float:left; width:636px;}
+.tabcon_01 .news_list ul li{ line-height:23px; color:#000000; background:url(../images/yuan.png) no-repeat left 9px; padding-left:15px;}
+.tabcon_02 .functional_img{ padding:15px 0; border-bottom:solid 1px #d1d1d1; width:890px;}
+.tabcon_02 .functional_list{ padding-top:10px;}
+.tabcon_02 .functional_list ul li{ float:left; width:360px; padding:25px 0 10px; border-bottom: solid 4px #f5e0bf; margin-left:58px; display:inline;}
+.tabcon_02 .functional_list li .desc{ line-height:24px; color:#000;}
+.tabcon_02 .functional_list li .pic{ width:226px; height:173px;display:table;vertical-align:middle; text-align:center; margin-top:7px;}
+.tabcon_02 .functional_list li .pic a{ display:table-cell; vertical-align:middle; *display: inline; *writing-mode: tb-rl; *text-align:center; *height:100%;}
+.tabcon_02 .functional_list li .pic a img{ vertical-align:middle;}
+.tabcon_03 .model_num{ color:#000; font-weight:bold; padding:20px 0 15px;}
+.tabcon_03 .model_num span{ padding-left:10px; font-family:Arial;}
+.tabcon_03 .model_tab{ width:384px;}
+.tabcon_03 .model_tab td{ line-height:28px; padding-left:5px; color:#000;}
+.tabcon_03 .model_tab .bg1 td{ background:#f6f6f6;}
+.tabcon_04{ padding-right:20px; padding-left:20px;}

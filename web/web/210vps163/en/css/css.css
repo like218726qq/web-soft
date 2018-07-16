@@ -1,0 +1,406 @@
+@charset "utf-8";
+body { font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000; background:#fff; }
+
+p,ul,ol,li{margin:0;padding:0;border:0;}
+*{ margin:0; padding:0;}
+ul,li{ list-style-type:none;}
+img{ border:none;}
+a{ font-size:12px; text-decoration:none; color:#000; outline:none; blr:expression(this.onFocus=this.blur());}
+a:hover{ font-size:12px; color:#FF0000;}
+.clear{ clear:both;}
+.box-1{width:100%; background:url(../images/ind_02.jpg) top repeat-x;}
+.top{ height:130px; width:982px; margin:0 auto; }
+.logo{ width:422px; height:83px; float:left;}
+.right-top{ width:315px; height:83px; float:right;}
+.search{ width:315px; height:49px; background:url(../images/ind_05.jpg) no-repeat; margin-top:10px;}
+.search input{ height:13px; width:171px; margin-top:5px; margin-left:39px; line-height:13px; display:inline; border:none; background:url(../images/ind_10.jpg) no-repeat;}
+.search select{ height:20px; width:171px; margin-top:3px; border:1px #000000 solid; margin-left:39px; line-height:20px; display:inline; border:none; }
+.search form img{ padding-left:41px; padding-top:6px;}
+.language{ width:315px; height:24px;}
+.language ul li{ float:right; font-size:12px; color:#4f4f4f; line-height:24px; margin-left:15px; display:inline;}
+.language ul li a{ font-size:12px; color:#4f4f4f;}
+.language ul li a:hover{ font-size:12px; color:#f00;}
+.nav{ width:982px; height:37px; margin:0 auto; padding-top:10px; padding-top:11px; z-index:2;}
+/*.navL,.navR,.nav-list{ float:left;}
+.nav-list{ width:969px; height:37px;}
+.nav-list ul li{ float:left;}
+.nav-list ul li a{ width:158px; height:37px; line-height:37px; display:block; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:14px; font-weight:bold;}*/
+.banner{ width:982px; height:454px; margin:0 auto; border:1px #F00 soid; }
+.bannerback{ width:961px; height:240px; margin:0 auto; margin-top:2px; border:1px #000000 soid; }
+.banner2{ width:982px; height:380px; margin:0 auto; border:1px #000 soid; position:relative;}
+.box-2{ width:100%; background:url(../images/ind_24.jpg) bottom repeat-x; margin-top:11px;}
+.content{ width:982px; margin:0 auto;}
+.left-bar{ background:url(../images/ind_23.png) no-repeat; width:594px; height:248px; float:left;}
+.about{ width:195px; float:left;}
+.about p,.professional p,.archite p{ margin-top:55px; padding-left:12px;}
+.about ul li,.professional ul li,.archite ul li{ color:#3e3e3e; font-size:12px; line-height:18px; padding: 0 13px;}
+.about ul li span a,.professional ul li span a,.archite ul li span a{ color:#3e3e3e; font-size:12px;}
+.about ul li span a:hover,.professional ul li span a:hover,.archite ul li span a:hover{ color:#f00; font-size:12px;}
+.professional{width:196px; float:left;}
+.archite{ width:197px; float:left;}
+.right-bar{ width:371px; height:251px; background:url(../images/ind_24a.jpg) no-repeat; float:left; margin-left:12px; display:inline;}
+.news{ width:371px; height:120px;}
+.news p,.down p{ height:27px;}
+.news p img,.down p img{ float:right; padding-right:10px; padding-top:9px;}
+.new-L,.newList,.down-L,.downList { float:left;}
+.new-L img,.down-L img{ margin-left:22px; margin-top:5px; margin-right:16px;}
+.newList ul li,.downList ul li{ color:#545454; font-size:12px; line-height:20px; height:20px; width:180px}
+
+.newList{ width:180px; height:82px}
+
+.downList{width:180px; height:82px}
+.newList ul li img,.downList ul li img{ width:4px; height:4px; padding-bottom:2px; padding-right:8px;}
+.newList,.downList{ margin-top:10px;}
+.down{ width:371px; height:130px;}
+.box-3{ width:100%; height:204px; background:url(../images/ind_37.jpg) repeat-x; }
+.foot{ width:982px; margin:0 auto; padding-top:25px;}
+.foot-nav{}
+.foot-nav dl{ float:left;}
+.foot-nav dl{ padding:0 29px;}
+.foot-nav dl dt{ padding-bottom:5px;}
+.foot-nav dl dt a{ padding-right:35px; font-size:12px;}
+.foot-nav dl dt a:hover{  color:#f00; font-size:12px;}
+.foot-nav dl dt dd{ line-height:25px;}
+.foot-logo{ width:120px; height:28px; float:left; margin-left:82px; padding-top:40px; margin-right:45px; display:inline;}
+.address{ padding-top:55px; float:left;}
+.address span{ padding-right:30px;}
+/*内页*/
+.nbanner{ width:1001px; height:249px; margin:0 auto;}
+.main{ width:1001px; margin:0 auto;}
+.pro-left-bar{ width:288px; float:left; background:url(../images/ny_10.jpg) repeat-y;}
+.pro-right-bar{ width:702px; float:right;}
+
+.pro-Main-list{ width:263px; padding-left:25px; padding-bottom:50px; }
+.pro-Main-list p{ line-height:24px;height:24px; margin-top:13px;}
+.pro-Main-list p img{ margin-top:10px; margin-right:5px;}
+
+
+.n-list{ width:187px; float:left; display:inline; overflow:hidden;}
+.n-list li{ width:187px; height:24px; line-height:27px; margin-left:7px;border-bottom:1px #006600 dotted;  float:left; display:inline; overflow:hidden;}
+.n-list li a{width:187px; height:24px; line-height:27px; text-indent:2em;  display:block; }
+.n-list li a.p1:hover{ background:url(../images/321_0322.jpg) left top no-repeat; color:#000000;}
+
+.n-list123{ width:170px; float:left; display:inline; overflow:hidden;}
+.n-list123 li{ width:170px; height:24px; line-height:27px; margin-left:7px;border-bottom:1px #006600 dotted;  float:left; display:inline; overflow:hidden;}
+.n-list123 li a{width:170px; height:24px; line-height:27px; text-indent:2em;  display:block; }
+.n-list123 li a.p1:hover{ background-color:#999999; color:#000000;}
+
+
+.conM{ height:200px; width:288px; background:url(../images/ny_15.jpg) 100px bottom no-repeat;}
+.conM p{ line-height:22px; color:#000; padding-left:20px; padding-top:24px;}
+.proT{ background:url(../images/ny_07a.jpg) no-repeat; width:702px; height:46px;}
+.proT p{ line-height:46px; font-size:18px;  color:#000; padding-left:50px;}
+.proM{ width:702px; background:url(../images/ny_21.jpg) bottom repeat-x;}
+.pro{ width:192px; padding-left:29px; padding-top:10px; float:left;}
+.pro ul li{ width:192px; text-align:center;}
+.pro ul li a{ line-height:22px;}
+
+.ny3-intro{ width:408px; margin:0 auto; text-align:left; line-height:30px; margin-top:10px; }
+.pr-search{ width:600px; margin:0 auto; padding-bottom:20px; padding-top:10px; text-align:left;}
+.pr-search input{ width:363px; height:24px; line-height:24px; border:#797979 solid 1px; background:#fff;}
+.pr-search img{ width:23px; height:23px; float:right; margin-top:2px;}
+/*****ny2*****/
+.ny2-1{ width:667px; height:420px; margin:0 auto;background:#d8d8d8 url(../images/pro_bg.jpg) center center no-repeat; margin-top:12px;}
+.ny2-1small{ width:667px; height:150px; background-color:#d8d8d8; margin:0 auto;}
+.ny2-left{ width:610px; height:400px; float:left; margin-top:10px; margin-left:30px; display:inline;}
+.ny2-left img{  margin-top:5px; margin-left:5px;}
+.ny2-right{ width:202px; height:297px; background:#808080; float:left; margin-left:55px;display:inline; margin-top:10px;}
+.ny2-right p{ width:138px; height:88px; border:#fff solid 1px; margin:7px auto; padding-left:30px; background-color:#FFFFFF;}
+.ny2-intro{ width:667px; margin:0 auto; padding-bottom:20px; line-height:20px; color:#221815; }
+.ny2-intro span{ color:#000; font-size:20px; line-height:30px;}
+.ny2-2{ width:667px; margin:0 auto; background:#fff; border:#8b8b8b solid 1px;}
+.ny2-2-title{ width:667px; height:39px;}
+.ny2-2-main{ color:#000; font-size:12px; line-height:14px; padding-top:10px; padding-left:27px; padding-bottom:12px;}
+.ny2-line{ width:100%; height:70px;}
+
+.proDwon{ width:288px; height:208px; background:url(../images/ny_07.jpg) top no-repeat;}
+.proDwon p img{float:right; padding-right:10px; padding-top:9px;}
+.proDwonList{ padding-top:36px; padding-left:44px;}
+.proDwonList ul li{ line-height:30px; height:20px;}
+.proDwonList ul li img{ width:4px; height:4px; padding-bottom:2px; padding-right:8px;}
+
+.proDwon2{ width:288px; height:208px; background:url(../images/ny_07_2.jpg) top no-repeat;}
+.proDwon2 p img{float:right; padding-right:10px; padding-top:9px;}
+.proDwon2List{ padding-top:36px; padding-left:44px;}
+.proDwon2List ul li{ line-height:30px; height:20px;}
+.proDwon2List ul li img{ width:4px; height:4px; padding-bottom:2px; padding-right:8px;}
+
+.contact{ }
+.conM{ height:200px; width:288px; background:url(../images/ny_15.jpg) 100px bottom no-repeat;}
+.conM p{ line-height:22px; color:#000; padding-left:20px; padding-top:24px;}
+.proT{ background:url(../images/ny_07a.jpg) no-repeat; width:702px; height:46px;}
+.proT p{ line-height:46px; font-size:18px; color:#000; padding-left:50px;}
+.proM{ width:702px; padding-top:2px; padding-bottom:20px; background:#f9f9f9 url(../images/ny_21.jpg) bottom repeat-x;}
+.pro{ width:127px; padding-left:12px; padding-top:10px; float:left;}
+.pro ul li{ width:127px; text-align:center;}
+.pro ul li a{ line-height:22px;}
+
+/**top下拉菜单**/
+/* CSS Document */
+body {padding:0; margin:0;font:12px/normal Verdana, Arial, Helvetica, sans-serif;}
+ul,li { margin:0px; padding:0px;list-style:none; text-transform:capitalize;}
+.clear {clear:both; *display:inline;/*IE only*/}
+
+
+/*menu*/
+#navtop {width:982px; height:37px; display:block; background:url(../images/ind_18.jpg) left no-repeat;}
+#navtop .mainlevel { float:left; width:163px;}
+#navtop .mainlevel a {color:#000; text-decoration:none; text-align:center; line-height:37px; display:block; width:163.7px;}
+#navtop .mainlevel a:hover {color:#fff; line-height:37px; text-decoration:none;}
+
+#navtop .mainlevel ul {display:none; position:absolute; z-index:1000;}
+#navtop .mainlevel ul li { height:34px; text-align:center; width:170px; }
+#navtop .mainlevel ul li a {color:#192195; font-family:'微软雅黑'; font-weight:bold; font-size:12px; text-decoration:none; text-align:left; text-indent:2em; line-height:21px; display:block; width:164px; }
+#navtop .mainlevel ul li a:hover {color:#F00; line-height:21px; text-decoration:none; }
+/**产品详页**/
+.divpro_de{ width:1001px; margin:0 auto; }
+.divpro_de_top{ margin:0 auto; background:url(../images/ny_07a_1.jpg) left no-repeat; width:1000px; height:46px; margin-top:20px; }
+.divpro_de_top p{ line-height:46px; font-size:18px; color:#000; padding-left:50px;}
+.divpro_de_img{ margin:0 auto; width:1000px; height:400px; }
+.divpro_de_img_left{float:left; width:490px; height:400px; margin-top:10px; }
+.divpro_de_img_right{ float:right; text-align:left; width:450px; border-left:1px #CCC solid; height:360px; padding-top:30px; padding-left:30px; margin-top:10px;  }
+.divpro_de_detail{ margin:0 auto; width:1000px; text-align:left; padding:10px; clear:both; }
+.divpro_de_detail p{ text-align:left; text-indent:2em; line-height:180%; }
+.divpro_de_detail_span{ float:left; width:640px; height:20px; text-align:right; padding-right:40px; padding-top:20px; }
+
+/**banner样式**/
+#slide-box {
+	MARGIN: 12px auto; WIDTH: 930px; POSITION:relative; HEIGHT: 420px; z-index:1; 
+}
+#slide-box .corner {
+	CLEAR: both; DISPLAY: block; MARGIN: 0px 1px; OVERFLOW: hidden; HEIGHT: 0px;
+}
+#slide-box .slide-content {
+	BACKGROUND: #ffffff;
+}
+#slide-box .ks-switchable-triggers A {
+	DISPLAY: block; Z-INDEX: 99; WIDTH: 37px; COLOR: #b4b4b4; POSITION: absolute; TOP: 150px; HEIGHT: 65px; TEXT-DECORATION: none
+}
+#slide-box .ks-switchable-triggers SPAN {
+	DISPLAY: block; BACKGROUND:url(../images/prev.png) left no-repeat ; FONT: 700 53px/57px arial; WIDTH: 51px; CURSOR: pointer; HEIGHT: 101px; TEXT-ALIGN: center
+}
+
+#slide-box .ks-switchable-triggers p {
+	DISPLAY: block; BACKGROUND:url(../images/next.png) left no-repeat ; FONT: 700 53px/57px arial; WIDTH: 51px; CURSOR: pointer; HEIGHT: 101px; TEXT-ALIGN: center
+}
+#slide-box .ks-switchable-triggers .corner {
+	BORDER-LEFT-COLOR: #4b4b4b; BORDER-BOTTOM-COLOR: #4b4b4b; BORDER-TOP-COLOR: #4b4b4b; BORDER-RIGHT-COLOR: #4b4b4b
+}
+#slide-box .ks-switchable-triggers .prev {
+	LEFT: -10px
+}
+#slide-box .ks-switchable-triggers .next {
+	RIGHT: 5px
+}
+#slide-box .ks-switchable-triggers A:hover {
+	COLOR: #f43d1e
+}
+#slide-box .ks-switchable-triggers A:hover SPAN {
+	COLOR: #f43d1e
+}
+#slide-box .slide-content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px;
+}
+#slide-box .wrap {
+	OVERFLOW: hidden; WIDTH: 901px; HEIGHT: 420px
+}
+#slide-box UL {
+	WIDTH: 901px
+}
+#slide-box LI {
+	FLOAT: left; WIDTH: 901px; HEIGHT: 420px
+}
+#slide-box LI IMG {
+	WIDTH: 901px; HEIGHT: 420px
+}
+
+.cont{ width:950px; height:116px; background:url(../images/contact.png) left top no-repeat; position:absolute; top:480px; left:190px; z-index:100;}
+
+.conttop1{ width:950px; height:116px; background:url(../images/contact.png) left top no-repeat; position:absolute; top:262px; left:0px;  z-index:100; }
+
+/**banner样式end**/
+
+/****/
+
+#s-box {
+	MARGIN: 12px auto; WIDTH: 900px; POSITION:relative; HEIGHT: 115px;
+}
+#s-box .corner {
+	CLEAR: both; DISPLAY: block; MARGIN: 0px 1px; OVERFLOW: hidden; HEIGHT: 0px;
+}
+#s-box .slide-content {
+	BACKGROUND: #ffffff;
+}
+#s-box .ks-switchable-triggers A {
+	DISPLAY: block; Z-INDEX: 99; WIDTH: 27px; COLOR: #b4b4b4; POSITION: absolute; TOP: 10px; HEIGHT: 87px; TEXT-DECORATION: none
+}
+#s-box .ks-switchable-triggers SPAN {
+	DISPLAY: block; BACKGROUND:url(../images/csa_10.jpg) left no-repeat ; FONT: 700 53px/57px arial; WIDTH: 27px; CURSOR: pointer; HEIGHT: 87px; TEXT-ALIGN: center
+}
+
+#s-box .ks-switchable-triggers p {
+	DISPLAY: block; BACKGROUND:url(../images/csa_13.jpg) left no-repeat ; FONT: 700 53px/57px arial; WIDTH: 27px; CURSOR: pointer; HEIGHT: 87px; TEXT-ALIGN: center
+}
+#s-box .ks-switchable-triggers .corner {
+	BORDER-LEFT-COLOR: #4b4b4b; BORDER-BOTTOM-COLOR: #4b4b4b; BORDER-TOP-COLOR: #4b4b4b; BORDER-RIGHT-COLOR: #4b4b4b
+}
+#s-box .ks-switchable-triggers .prev {
+	LEFT: 5px
+}
+#s-box .ks-switchable-triggers .next {
+	RIGHT: 10px
+}
+#s-box .ks-switchable-triggers A:hover {
+	COLOR: #f43d1e
+}
+#s-box .ks-switchable-triggers A:hover SPAN {
+	COLOR: #f43d1e
+}
+#s-box .slide-content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 100px; PADDING-BOTTOM: 10px;
+}
+#s-box .wrap {
+	OVERFLOW: hidden; WIDTH: 720px; HEIGHT: 115px
+}
+#s-box UL {
+	WIDTH: 901px
+}
+#s-box LI {
+	FLOAT: left; WIDTH: 240px; HEIGHT: 115px
+}
+#s-box LI IMG {
+	WIDTH: 200px; HEIGHT: 115px
+}
+/****/
+
+/* HTML5 display-role reset for older browsers */
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+#container {width:910px; margin: 0 auto; }
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 910px; height:360px; margin: 0; padding: 0; top:4px;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width:900px; height:360px; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption {width: 95%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 14px; text-align:right;}
+
+/* Direction Nav background: url(../images/bg_direction_nav.png) no-repeat 0 0;*/
+.flex-direction-nav li a {width: 51px; height: 101px; margin: -45px 0 0; display: block;  position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background-position: -52px 0; background:url(../images/next.png) left top no-repeat; right: -23px;}
+.flex-direction-nav li a.prev {background-position: 0 0; background:url(../images/prev.png) left top no-repeat; left: -24px;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%;  padding-left:20px; position: absolute; top:330px;  text-align: center;}
+.flex-control-nav li { float:left; margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(../images/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+/**首页轮换样式**/
+/**首页轮换样式**/
+/* HTML5 display-role reset for older browsers */
+
+
+#container1 {width:910px; margin: 0 auto;}
+
+/* Browser Resets */
+.flex1-container a:active,
+.flexslider1 a:active {outline: none;}
+.slides1,
+.flex1-control-nav,
+.flex1-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider1 {width: 910px; height:310px; margin: 0; padding: 0;}
+.flexslider1 .slides1 > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider1 .slides1 img {width:900px; height:310px; display: block;}
+.flex1-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides1:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js1 .slides1 > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider1 { position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; zoom: 1;}
+.flexslider1 .slides1 {zoom: 1;}
+.flexslider1 .slides1 > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex1-container {zoom: 1; position: relative;}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex1-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex1-caption {width: 95%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 14px; text-align:right;}
+
+/* Direction Nav background: url(../images/bg_direction_nav.png) no-repeat 0 0;*/
+.flex1-direction-nav li a {width: 51px; height: 101px; margin: -45px 0 0; display: block;  position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
+.flex1-direction-nav li a.next {background-position: -52px 0; background:url(../images/next.png) left top no-repeat; right: -23px;}
+.flex1-direction-nav li a.prev {background-position: 0 0; background:url(../images/prev.png) left top no-repeat; left: -24px;}
+.flex1-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex1-control-nav {width: 100%;  padding-left:20px; position: absolute; top:290px;  text-align: center;   z-index:101;}
+.flex1-control-nav li { float:left; margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex1-control-nav li:first-child {margin: 0;}
+.flex1-control-nav li a {width: 13px; height: 13px; display: block; background: url(../images/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex1-control-nav li a:hover {background-position: 0 -13px;}
+.flex1-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+/**放大**/
+.photoblock-many {		
+   clear: both;
+   width: 660px;
+   text-align: center;
+   font-size: 10px;
+   color: #888888;
+}
+.photoblock-many img{ margin-left:10px; border:1px #CCCCCC solid; }	

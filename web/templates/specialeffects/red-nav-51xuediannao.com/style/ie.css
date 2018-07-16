@@ -1,0 +1,35 @@
+/*#Menu div { width:555px;}
+.smilies-panel {position:absolute; left:0; top:0; width:125px;}*/
+* html #Menu div strong a, * html #Menu div strong a.current {margin:0 8px 0 5px;}
+.sidebar fieldset .submit-style { height:21px; padding: 3px 0 0 5px;}
+.post-comment p input.input-submit {vertical-align:-2px; padding:4px 0 0;}
+* html .post-comment legend {margin-left: -7px;}
+/* html .commenter-info {left:-90px;}
+.comment-content {margin-top:-18px;}*/
+* html .comment-list li {height:80px;}
+#Team_Info { padding:20px 0 0;}
+
+/* IE6 PNG */
+* html .ie6-png {width:983px; height:453px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="http://webteam.tencent.com/wp-content/themes/teamblog/img/bg_img.png"); position:absolute; z-index:-1; display:block; background:none;}
+
+/*Local Test*/
+/** html .ie6-png {width:983px; height:453px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="http://127.0.0.1/wordpress/wp-content/themes/teamblog/img/bg_img.png"); position:absolute; z-index:-1; display:block; background:none;}*/
+
+* html .logo-panel h1, * html .logo-panel h2 {position:relative; width:128px; height:90px; margin:18px auto 10px; overflow:hidden;}
+	* html .logo-panel h1 a, * html .logo-panel h2 a {background:none; position:relative; z-index:999; margin:0;}
+	* html .logo-panel h1 .ie6-png, * html .logo-panel h2 .ie6-png {left:-230px; top:-207px;}
+	/** html .logo-panel h1 .ie6-png, * html .logo-panel h2 .ie6-png {display:none;}*/
+
+* html .blog-title {background:none; position:relative;}
+	* html .blog-title .ie6-png {left:0; top:-360px;}
+
+* html .sidebar h2 {position:relative; width:229px; height:152px; overflow:hidden; margin-bottom:15px;}
+	* html .sidebar h2 a {background:none; position:relative; margin:0;}
+	* html .sidebar h2 .ie6-png {width:229px; height:152px; left:0; top:0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="http://webteam.tencent.com/wp-content/themes/teamblog/img/gg.png");}
+	
+* html .sidebar p.rss {width:211px; height:48px; overflow:hidden; position:relative;}
+	* html .sidebar p.rss a {background:none;}
+	* html .sidebar p.rss .ie6-png {left:-230px; top:-311px;}
+	
+* html .sidebar fieldset {background:none; position:relative;}
+	* html .sidebar fieldset .ie6-png {left:-754px; top:-207px;}	

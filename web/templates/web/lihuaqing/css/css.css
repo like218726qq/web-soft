@@ -1,0 +1,67 @@
+@charset "utf-8";
+.top1 { background:#2a2828; color:#f9be00; line-height:28px; height:28px; clear:both; overflow:hidden}
+.top1 .fl a{color:#f9be00; margin-right:15px;font-family:"Microsoft YaHei","微软雅黑";}
+.top1 .fr img{margin-right:25px;}
+.top1 span,.top1 .fr a{color:#da251c; margin-left:6px; font-family:"Microsoft YaHei","微软雅黑",Arial; display:inline-block}
+.top1 .fl a:hover{text-decoration: underline;}
+.tophead{ height:89px; clear:both; background-color:#FFFFFF; overflow:hidden;}
+.tophead .fl {overflow:hidden;}
+.tophead .ggy {overflow:hidden;width:340px;float:left; display:inline; margin-left:17px; margin-top:17px}
+.tophead .slidertxt {height:19px;overflow:hidden;width:300px;float:left; display:inline; margin-left:17px; margin-top:22px;overflow:hidden;}
+.tophead .slidertxt li {height:22px;line-height:22px;main-height:22px; width:300px;font-size:14px;font-family:"宋体";}
+.tophead .slidertxt a{color:#2a2828;}
+.tophead .slidertxt a:hover{color:#F00}
+
+.header.stuck{position:fixed;top:0;margin:0 auto;z-index:999;width:100%;background:url(yinying.png) repeat-x bottom; padding-bottom:6px}
+*html .header.stuck{position:absolute;top:expression(eval(document.documentElement.scrollTop+0));} 
+
+.tophead .top2 {display: inline;float: right; margin-top:40px; margin-right:-20px;}
+.top2 li {float: left; margin-left:15px;list-style:none;}
+.top2 li a {display: block;height:30px;width:80px;background-position: center;background-repeat:no-repeat;float: left;position:relative;overflow:hidden;}
+.top2 li a:hover {background-position:center 0px;background-repeat:no-repeat;height:30px;padding-bottom:62px;}
+
+.top2 li a#arcle5{background-image:url(../images/dh-1.jpg);}
+.top2 li a:hover#arcle5{background-image:url(../images/dh-1a.jpg)}
+.about .top2 li a#arcle5{background-image:url(../images/dh-1b.jpg)}
+
+.top2 li a#arcle14{background-image:url(../images/dh-2.jpg);}
+.top2 li a:hover#arcle14{background-image:url(../images/dh-2a.jpg)}
+.zuopin .top2 li a#arcle14 {background-image:url(../images/dh-2b.jpg)}
+
+.top2 li a#arcle11{background-image:url(../images/dh-3.jpg);}
+.top2 li a:hover#arcle11{background-image:url(../images/dh-3a.jpg);}
+.xinwen .top2 li a#arcle11 {background-image:url(../images/dh-3b.jpg);}
+
+.top2 li a#arcle18{background-image:url(../images/dh-4.jpg); }
+.top2 li a:hover#arcle18{background-image:url(../images/dh-4a.jpg); }
+.lxwm .top2 li a#arcle18 {background-image:url(../images/dh-4b.jpg);}
+
+.top2 li#art0 a{background-image:url(../images/dh-0.jpg); }
+.top2 li#art0 a:hover{background-image:url(../images/dh-0a.jpg); }
+.home .top2 li a#arcle0 {background-image:url(../images/dh-0b.jpg);}
+
+
+.top2 .nav li .box{ width:100%;_width:1600px;height:39px;_height:43px;position:absolute;top:117px;left:0;_left:0;background:#b9b9b9 url(yinying.png) repeat-x top;display: none;line-height:40px;font-size:14px;z-index:999;white-space: nowrap;}
+.gNav_sub_menu_bg{width:100%;height:39px;position:absolute;left:50%; margin-left:-512px;_left:0;_margin-left:35%;_width:1000px;}
+.top2 .nav li .box a{padding:0 10px;color:#fff; float: none; display:inline;}
+.top2 .nav li .box a:hover{color:#221815;}
+
+.gNav_sub_menu_bg1{width:100%;height:39px;background:#b9b9b9;z-index:999;box-shadow:inset 0px 2px 4px rgba(0, 0, 0, 0.3);left:0;}
+#nav_life_sub_menu1{position:absolute;_position:absolute; left:0;top:118px;width:100%;height:40px;line-height:40px;font-size:14px;display:;z-index:999;white-space: nowrap;}
+#nav_life_sub_menu1 a{padding:0 10px;color:#fff; float: none; display:inline;}
+#nav_life_sub_menu1 a:hover{color:#221815;}
+
+.g_footer{ height:244px; clear:both}
+#ic_footer{background:#2a2828; height:200px}
+#ic_footer .mod_buy{float:left;margin:35px 100px 0 0;font-family:"宋体"; line-height:18px;color:#f9be00;}
+#ic_footer h2{color:#f9be00; font-weight:bold;padding:0 0 15px 0}
+#ic_footer li a{color:#f9be00}
+#ic_footer li a:hover{text-decoration:underline}
+#ic_footer .mod_share{ margin-top:35px; text-align:right}
+#ic_footer .mod_share .mod_h{ margin-right:15px}
+#ic_footer .mod_share .c{ margin-top:15px}
+
+.gfc{background:#121212;height:44px;line-height:44px;text-align:right;font-family:"宋体";}
+.gfc .copyright{color:#666666}
+.gfc .copyright img{ margin-top:16px}
+.gfc a{color:#666666}

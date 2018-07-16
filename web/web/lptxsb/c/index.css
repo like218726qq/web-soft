@@ -1,0 +1,170 @@
+_body { }
+body { }
+html{overflow-x: hidden;}
+#main{width:100%;position:relative; margin:0 auto;}
+#header{height:114px; position: relative; z-index: 20;}
+#index-flash{position:relative;  width: 960px;margin: 0 auto;}
+
+
+
+/* old css 2010 */
+.coverBG{background:none no-repeat scroll center center; position:absolute; left: -170px; top:0;height:552px; width: 1300px; font-size: 12px; }
+#coverBG_1{z-index:3;}
+#coverBG_2{z-index:2;}
+#index_flash_bg{display: none;}
+#flashpannel{height:400px;width: 960px; position: relative; z-index: 5;}
+#oppo_present{padding-left: 15px;height:300px;text-align:center}
+#columns{height:198px; position: relative; z-index: 100;}
+#column-1{float:left;width:296px;}
+#column-2{float:left; width:296px; margin-left:14px;}
+#column-3{float:right; width:340px;height:198px; background:transparent url(../images/newsbg.png) no-repeat 0 0;}
+#column-3-inc{padding:8px 10px;}
+#column-3 h3{height:20px;color:#109e0b;font-size:14px; text-indent: -10000em; font-weight:bold; font-style:italic; background:url("../images/news_title.png") no-repeat scroll 0 50% transparent;}
+#column-3 ul{margin:8px 0 0 0;font-size:12px; padding-left:12px;}
+#column-3 ul li{height:22px;line-height:22px;padding-left:10px;background: url(../images/list-bg.gif) no-repeat 0 50%;overflow:hidden;}
+#column-3 p{font-size:10px;text-align:right;padding:0 6px;}
+#column-3 p a{color:#46b958;}
+
+/* new css */
+ 
+	#wrap_top{position:absolute; width:100%; margin:0 auto; z-index:30; }
+	#wrap_top #header{height:100px; width:994px;  margin:auto;  z-index:30;}
+	#flash{height:100%; width:100%; min-height:710px; min-width:994px;}
+	#wrap_bottom {width:100%;position:absolute;margin:auto; z-index:30;}
+	#newsbar	{width:994px;position:relative;margin:0 auto;height:30px;}
+	#news_li{width:865px;height:16px;font-size:9px;display:block;position:absolute;left:87px;top:5px;overflow:hidden;}
+	#roll_mask{width:3048px;height:17px;margin-top:-1px;_margin-top:0;overflow:hidden;padding:0}
+	#newsbarbg	{width:994px;position:absolute;height:37px;
+		background:url(../images/nav/news_bar.png) no-repeat;
+		_background:transparent;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/news_bar.png,sizingMethod='');
+		z-index:-1;_left:-2px}
+	#newsbar a:focus{outline:none}
+	
+	a#news_link	{width:55px;height:15px;overflow:hidden;text-indent:-9999px;display:block;position:absolute;left:13px;top:6px;
+	 					background:url(../images/nav/newsbar_title0.png);
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/newsbar_title0.png,sizingMethod='');
+						cursor:pointer;
+				}
+    a#news_link:hover{	left:14px;background:url(../images/nav/newsbar_title.png);
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/newsbar_title.png,sizingMethod='');
+				}
+    
+    a#news_li_sleft	{width:6px;height:11px;display:block;position:absolute;left:960px;_left:956px;top:8px;}
+    a#news_li_sleft:hover{width:6px;height:11px;background:url(../images/nav/newsbar_btn.png) no-repeat -100px -12px;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/newsbar_larrow.png,sizingMethod='');
+						}
+    
+    a#news_li_sright	{width:6px;height:11px;display:block;position:absolute;left:975px;_left:972px;top:8px;}
+    a#news_li_sright:hover{width:6px;height:11px;background:url(../images/nav/newsbar_btn.png) no-repeat  -150px -12px;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/nav/newsbar_rarrow.png,sizingMethod='');
+						}
+    
+    #newsimg	{margin-top:8px;width:1000px;position:relative;margin:8px auto;height:180px;text-align:center;}
+    #newsimg	ul{margin-left:-3px;margin-left:-5px\9;_margin-left:-8px;}
+    #newsimg	li{display:inline;margin-left:2px;width:310px;border:0}
+    #newsimg	li img{width:326px;} 
+    @media screen and (-webkit-min-device-pixel-ratio:0){  /* chrome  safari*/
+		#newsimg	ul{margin-left:-4px}
+		#newsimg	li{}
+	}
+	@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){/* opera */
+     	#newsimg li{margin-left:0px;}
+    } 
+/* mobile css  */
+#scrollimg_frm{ height:600px; width:100%;position:relative;margin:0 auto;}
+#scrollimg_frm a:focus{outline:none}
+#scrollimg_a {display:block;height:600px; width:1020px;position:absolute;}
+#scrollimg{ height:600px; width:1020px;position:relative;margin:0 auto;}
+a#scrollleft{ cursor:pointer;display:block;position:absolute;left:10px;top:200px;width:126px;height:196px;background:url(../images/ar_lt.png) no-repeat;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/ar_lt.png,sizingMethod='scale');}
+a#scrollright{ cursor:pointer;display:block;position:absolute;right:10px;top:200px;width:126px;height:196px;background:url(../images/ar_rt.png) no-repeat;
+    					_background:transparent;
+						_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=resource/www/images/ar_rt.png,sizingMethod='scale');}
+#preload {display:none}
+#index_m_bg{width:100%;height:100%;position:absolute; margin:0 auto;}
+
+/*
+	°×É«FinderÏîÄ¿
+*/
+#finder_ads {
+	display: none;
+}
+a.finder_close1{
+	width:20px;
+	height:21px;
+	position: absolute;
+	left: 835px;
+	top:5px;
+	background-repeat: no-repeat;
+	background-position:0 0;
+}
+a.finder_close1:hover{
+	background-position:0 -21px;
+}
+
+a.finder_close2,a.finder_close4{
+	width:20px;
+	height:19px;
+	position: absolute;
+	left: 840px;
+	top:5px;
+	background-repeat: no-repeat;
+	background-position:0 0;
+}
+a.finder_close2:hover,a.finder_close4:hover{
+	background-position:0 -19px;
+}
+
+a.finder_close3{
+	width:50px;
+	height:19px;
+	position: absolute;
+	left: 830px;
+	top:-20px;
+	background-repeat: no-repeat;
+	background-position:0 0;
+	color: #ccc;
+	font-weight: bold;
+	text-decoration: none;
+	display: none;
+}
+a.finder_close3:hover{
+    text-decoration: none;
+    color: #fff;
+}
+ 
+ #flash_a{
+   display: block;
+   height:420px;
+   width:857px;
+   position: absolute;
+   left:0;
+   top:0;
+   
+ }
+ 
+#count_down{
+	width: 28px;
+	height: 14px;
+	position: absolute;
+	left: 800px;
+	top:10px;
+	color: #fff;
+	font-size: 19px;
+}
+
+#oppomask{
+	position: absolute;
+	z-index : 9998;
+	background: #000;
+	top :0;
+	left :0 ;
+	filter:alpha(opacity=70);
+	opacity: 0.7;
+}

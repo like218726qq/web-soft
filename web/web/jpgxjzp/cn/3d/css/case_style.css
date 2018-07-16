@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*如果你的网站已有以下样式，就不用复制了*/
+ul,li{ margin:0px; padding:0px; list-style:none;}
+
+/*该样式名称可以改为你的Banner样式名*/
+.slide-banner{width:1024px; height:310px;margin:0px auto; position:relative;}
+
+.slide-wp{
+	width:1024px;
+	height:310px;
+	overflow:hidden;
+	position:absolute;
+	left: -0px;
+	top: 0px;
+}
+.nav-wp{
+	bottom:0px;
+	right:0px;
+	position:absolute;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	padding:0 20px 6px 10px;
+	_padding:0 20px 2px 10px;
+}
+.nav_tx li{
+	display:inline;
+	float:left;
+	margin-left:10px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:tahoma;
+	color:#ccc;
+	cursor:pointer;
+	height:22px;
+}
+.nav_tx li.cur{
+	color:#ff7a00;
+}

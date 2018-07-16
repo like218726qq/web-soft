@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #dbba48;
+	background-image: url(../images/jmwy_10.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+a{color: #000000; text-decoration:none;}
+a:hover{ text-decoration:none;}
+
+.bk{border:1px solid #e0e0e0;}
+.cpbk{border:2px solid #ccc8c7;}
+
+.fy a{ color:#525353; line-height:23px;}
+
+.cpfy a{ color:#c85c14; font-weight:bold;} 
+
+.bot a{ color:#555555;} 
+
+
+.pro{ width:214px; height:27px; overflow:hidden; display:block; line-height:27px;background:url(../images/pro_03-03.jpg) 0px 0px no-repeat; margin-bottom:7px; text-indent:42px;color:#935502;}
+
+.lj { color:#525353; line-height:24px;}
+.lj a{color:#525353;line-height:22px;}
+.lj a:hover {color:#d4c706;line-height:22px;}
